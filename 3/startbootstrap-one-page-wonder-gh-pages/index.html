@@ -17,19 +17,42 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#page-top"><img src="/logotop.png" height="35px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-        </nav>
+       <div class="w-100 bg-pink text-black text-center py-1" style="background-color: #ffc0cb;">
+  FREE Mother's Day Kit with orders $75+ <strong>SHOP</strong>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom pt-2">
+  <div class="container-fluid px-5 d-block text-start">
+    
+    <!-- Logo centered above -->
+    <div class="text-start mb-2">
+      <a class="navbar-brand" href="#page-top">
+        <img src="/logotop.png" height="35px" alt="Laneige Logo">
+      </a>
+    </div>
+
+    <!-- Main navigation row -->
+    <div class="d-flex justify-content-between align-items-center flex-wrap">
+      <!-- Left nav links -->
+      <ul class="navbar-nav flex-row flex-wrap">
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">Shop</a></li>
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">NEW</a></li>
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">Dewy Skin Rewards</a></li>
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">Best Sellers</a></li>
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">Skincare Quiz</a></li>
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">GIFT GUIDE</a></li>
+        <li class="nav-item mx-2 small"><a class="nav-link p-0" href="#">About</a></li>
+      </ul>
+
+      <!-- Right-side "Offers" -->
+      <ul class="navbar-nav">
+        <li class="nav-item small"><a class="nav-link p-0 fw-bold" href="#">Offers</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
         <!-- Header-->
         <header class="masthead text-center text-white">
             <div class="masthead-content">
@@ -116,12 +139,133 @@
         
 
         <!-- Footer-->
-        <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p></div>
-        </footer>
+        
+
+        <footer class="mt-5">
+            <div class="container-fluid">
+              <div class="row">
+                <!-- Left side -->
+                <div class="col-md-7 p-5" style="background-color: #ADD8E6; color: #000;">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h6>LANEIGE Products</h6>
+                      <ul class="list-unstyled">
+                        <li>Shop All</li>
+                        <li>Best Sellers</li>
+                        <li>Water Bank</li>
+                        <li>New</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3">
+                      <h6>About LANEIGE</h6>
+                      <ul class="list-unstyled">
+                        <li>About Us</li>
+                        <li>Laneige Loyalty Program</li>
+                        <li>Product Subscription</li>
+                        <li>Student & Graduate Discounts</li>
+                        <li>Refer a Friend: Give $15, Get $15</li>
+                        <li>Store Locator</li>
+                        <li>COVID-19 Update</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3">
+                      <h6>Customer Care</h6>
+                      <ul class="list-unstyled">
+                        <li>Contact Us</li>
+                        <li>Shipping & Returns</li>
+                        <li>Privacy Notice</li>
+                        <li>Terms of Service</li>
+                        <li>FAQ</li>
+                        <li>Loyalty Program Membership Terms</li>
+                        <li>Accessibility</li>
+                        <li>Report Counterfeits & Knockoffs</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3">
+                      <h6>LANEIGE Global</h6>
+                      <ul class="list-unstyled">
+                        <li>Korea</li>
+                        <li>Mainland China</li>
+                        <li>Singapore</li>
+                        <li>Thailand</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Horizontal line below the 4 columns -->
+                  <hr style="border-color: black;">
+                </div>
+          
+                <!-- Right side -->
+                <!-- Right side -->
+<div class="col-md-5 p-5" style="background-color: #FFC0CB; color: #000;">
+    <h5>Sign up for email updates</h5>
+    <p>Receive exclusive online offers, news about our latest products and more!</p>
+  
+    <form id="emailForm" novalidate>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email Address"
+        class="form-control w-75 mb-1"
+      />
+      <small id="emailError" class="text-danger d-none">Please enter a valid email address.</small>
+  
+      <div class="form-check mb-2 mt-3">
+        <input
+          type="checkbox"
+          id="consent"
+          class="form-check-input"
+        />
+        <label for="consent" class="form-check-label small">
+          I consent to LANEIGE's Privacy Policy and Terms of Service...
+        </label>
+        <small id="consentError" class="text-danger d-none">You must agree before submitting.</small>
+      </div>
+  
+      <!-- Not a button, just text -->
+      <p id="submitText" class="mt-2" style="font-weight: bold; cursor: pointer;">Sign Up &gt;</p>
+    </form>
+  </div> 
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            document.getElementById('submitText').addEventListener('click', function () {
+              const emailInput = document.getElementById('email');
+              const consentCheckbox = document.getElementById('consent');
+              const emailError = document.getElementById('emailError');
+              const consentError = document.getElementById('consentError');
+          
+              let valid = true;
+          
+              // Email validation
+              const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+              if (!emailInput.value || !emailRegex.test(emailInput.value)) {
+                emailInput.classList.add('is-invalid');
+                emailError.classList.remove('d-none');
+                valid = false;
+              } else {
+                emailInput.classList.remove('is-invalid');
+                emailError.classList.add('d-none');
+              }
+          
+              // Consent validation
+              if (!consentCheckbox.checked) {
+                consentError.classList.remove('d-none');
+                valid = false;
+              } else {
+                consentError.classList.add('d-none');
+              }
+          
+              // If valid, simulate form submit or show success
+              if (valid) {
+                alert("Form successfully submitted! (Simulation)"); // Optional
+                // Or: document.getElementById('emailForm').submit();
+              }
+            });
+          </script>
     </body>
 </html>

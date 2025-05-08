@@ -10859,7 +10859,7 @@ html {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: 0;
   padding-bottom: 7rem;
   background:white;
   background-repeat: no-repeat;
@@ -10910,7 +10910,7 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
+    padding-top: calc(1rem + 55px);
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
@@ -10920,3 +10920,46 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+
+/* General text scaling */
+body {
+  font-size: 14px;
+}
+
+/* Logo and nav alignment */
+.navbar-custom .navbar-brand {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+/* Add space between logo and nav */
+.navbar-custom .navbar-brand img {
+  margin-bottom: 10px;
+}
+
+/* Reduce top padding and image margin */
+.masthead-content {
+  padding-top: 0.5rem;
+}
+
+.masthead-content .container {
+  margin-top: -30px; /* Adjust whitespace before header image */
+}
+
+/* Responsive nav stack */
+@media (max-width: 768px) {
+  .navbar-nav.flex-row {
+    flex-direction: column !important;
+    align-items: flex-start;
+  }
+
+  .navbar-nav.flex-row .nav-item {
+    margin-bottom: 5px;
+  }
+
+  .navbar-nav {
+    font-size: 12px;
+  }
+}
+
